@@ -1,5 +1,7 @@
 # Image Representation
-Image representation lab
+
+<a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
+This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
 The Laurel Leaf, WaterLilies, and Paradise images used in this lab were copied from [the original lab by Henry Walker](http://www.cs.grinnell.edu/~walker/courses/105.sp05/labs/image-processing.shtml). The rainbow image was created by Jerod Weinman and is released to the public domain.
 
