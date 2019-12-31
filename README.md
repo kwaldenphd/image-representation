@@ -21,91 +21,91 @@ In this lab, we'll compare file formats (GIF and JPEG), re-size image files, and
 
 # Installing GIMP
 
-Open a Terminal window and use `sudo apt-get install gimp` to install GIMP on your Pi.
+1. Open a Terminal window and use `sudo apt-get install gimp` to install GIMP on your Pi.
 
-Once the installation is completed, you can launch GIMP's GUI interface under "Graphics" in your Start Menu.
+2. Once the installation is completed, you can launch GIMP's GUI interface under "Graphics" in your Start Menu.
 
 #  Image Files
 
-Download the four image files in this repo.
+3. Download the four image files in this repo.
 
-Using only the terminal, move the files into a newly-created folder for this lab.
+4. Using only the terminal, move the files into a newly-created folder for this lab.
 
-Use the `ls -l` command to determine how many bytes are in each of the original image files.
+5. Use the `ls -l` command to determine how many bytes are in each of the original image files.
 
 <blockquote>Q1: How many bytes are in each of the original image files? How can you tell?</blockquote>
 
 # JPEG Versus GIF Files
 
-The encoding schema lab included an overview of RGB and hexadecimal color representation schema.
+6. The encoding schema lab included an overview of RGB and hexadecimal color representation schema.
 
-The JPEG file format can utilize the full range of RGB values. Although GIF files can include any particular color, they are limited to a maximum number (often 256) of colors total. 
+7. The JPEG file format can utilize the full range of RGB values. Although GIF files can include any particular color, they are limited to a maximum number (often 256) of colors total. 
 
-GIF files are limited because they store colors in a table, and then refer to those colors by their position in the table (i.e., their index position), rather than by the full RGB triple.
+8. GIF files are limited because they store colors in a table, and then refer to those colors by their position in the table (i.e., their index position), rather than by the full RGB triple.
 
-Image processing software such as GIMP generally can work with images in two color modes: RGB mode, and indexed mode. JPEG images use RGB mode, and GIF images use indexed mode. 
+9. Image processing software such as GIMP generally can work with images in two color modes: RGB mode, and indexed mode. JPEG images use RGB mode, and GIF images use indexed mode. 
 
-To convert an image from the JPEG format to the GIF format (or back), you will need to change image modes.
+10. To convert an image from the JPEG format to the GIF format (or back), you will need to change image modes.
 
 # Changing Image Modes
 
-Using the terminal, navigate to the newly-created directory with the image files.
+11. Using the terminal, navigate to the newly-created directory with the image files.
 
-`gimp college-logo.gif &` will open the `college-logo.gif` file in a window separate from your main terminal window.
+12. `gimp college-logo.gif &` will open the `college-logo.gif` file in a window separate from your main terminal window.
 
-The GIMP program will open several windows, including a picture with the image itself. At the top of the frame containing the picture, note that the caption includes the words `Indexed color` to show that a color table is being used.
+13. The GIMP program will open several windows, including a picture with the image itself. At the top of the frame containing the picture, note that the caption includes the words `Indexed color` to show that a color table is being used.
 
-To change the mode of the image to full RGB:
-- Click on the Image menu
-- Move your curser over the Mode sub-menu
-- Click on RGB
+14. To change the mode of the image to full RGB:
+  a. Click on the Image menu
+  b. Move your curser over the Mode sub-menu
+  c. Click on RGB
 
-The image frame caption should now read `RGB color` rather than `indexed color`.
+15. The image frame caption should now read `RGB color` rather than `indexed color`.
 
-To save the image as a `jpeg` file:
-- Click the File menu and select Export
-- In the Export Image dialog box, click on the triangle next to "Select File Type (By Extension)
-- Select JPEG image for file type
-- Check that the file name has changed to `college-logo.jpg`
-- Click Export
-- Accept the default quality (90) and click Save
-** JPEG allows various quality settings. In general, the better the quality, the larger the file. 
+16. To save the image as a `jpeg` file:
+  a. Click the File menu and select Export
+  b. In the Export Image dialog box, click on the triangle next to "Select File Type (By Extension)
+  c. Select JPEG image for file type
+  d. Check that the file name has changed to `college-logo.jpg`
+  e. Click Export
+  f. Accept the default quality (90) and click Save
+    * JPEG allows various quality settings. In general, the better the quality, the larger the file. 
 
-Close the image window in GIMP. We do not need to save the file as a GIMP project.
+17. Close the image window in GIMP. We do not need to save the file as a GIMP project.
 
-Use `ls -l` to see the newly-created JPEG file.
+18. Use `ls -l` to see the newly-created JPEG file.
 
 <blockquote>Q2: How many bytes are there in <code>college-logo.gif</code>? How many bytes in <code>college-logo.jpg</code>?</blockquote>
 
-Open both of the `college-logo` image files by selecting Open from the File menu.
+19. Open both of the `college-logo` image files by selecting Open from the File menu.
 
-Arrange the two image windows so yu can see parts of both images as well as the GIMP toolbar.
+20. Arrange the two image windows so yu can see parts of both images as well as the GIMP toolbar.
 
-Zoom in on a specific area of both `college-logo` images (at least 2000%). The magnifying glass icon on the GIMP toolbar will allow you to zoom in.
+21. Zoom in on a specific area of both `college-logo` images (at least 2000%). The magnifying glass icon on the GIMP toolbar will allow you to zoom in.
 
 <blockquote>Q3: Describe what you see in each image, paying particular attention to colors. Which image format seems to be the most suitable for the logo image?</blockquote>
 
-Close both image windows in GIMP. We do not need to save the file as a GIMP project.
+22. Close both image windows in GIMP. We do not need to save the file as a GIMP project.
 
 # Creating GIF Files from JPEG Files
 
-Converting an image from JPEG to GIF format with GIMP follows a similar process.
+23. Converting an image from JPEG to GIF format with GIMP follows a similar process.
 
-Open the `paradise.jpg` file in GIMP.
+24. Open the `paradise.jpg` file in GIMP.
 
-Change the color mode to `indexed`. 
+25. Change the color mode to `indexed`. 
 
-Accepting the default number of colors (256) will cause a color table to be created for the image.
+26. Accepting the default number of colors (256) will cause a color table to be created for the image.
 
-Save the image as as GIF file. Verify the file name is `paradise.gif` before clicking Export.
+27. Save the image as as GIF file. Verify the file name is `paradise.gif` before clicking Export.
 
-Close the `paradise.gif` image. We do not need to save the file as a GIMP project.
+28. Close the `paradise.gif` image. We do not need to save the file as a GIMP project.
 
-Open both of the `paradise` image files. 
+29. Open both of the `paradise` image files. 
 
-Arrange the two image windows so yu can see parts of both images as well as the GIMP toolbar.
+30. Arrange the two image windows so yu can see parts of both images as well as the GIMP toolbar.
 
-Zoom in on a specific area of both `paradise` images. Focus on the colors contained in a specific region of the image.
+31. Zoom in on a specific area of both `paradise` images. Focus on the colors contained in a specific region of the image.
 
 <blockquote>Q4: Use the terminal to check the size of each version of the <code>paradise</code> image. How many bytes does each one require?</blockquote>
 
@@ -113,27 +113,27 @@ Zoom in on a specific area of both `paradise` images. Focus on the colors contai
 
 <blockquote>Q6: Formulate a hypothesis about what times of images are most appropriate for each image format. What kinds of images work better as JPEG files? What kinds of images work better as GIF files?</blockquote>
 
-Close both of the `paradise` images.
+32. Close both of the `paradise` images.
 
 # Re-sizing Images
 
-Using a new browser window, open the [Wikimedia Commons link](https://commons.wikimedia.org/wiki/File:Grinnell_College_Bucksbaum.jpg) to an image of Bucksbaum. Look at some of the different image resolutions. Note how long each image takes to load.
+33. Using a new browser window, open the [Wikimedia Commons link](https://commons.wikimedia.org/wiki/File:Grinnell_College_Bucksbaum.jpg) to an image of Bucksbaum. Look at some of the different image resolutions. Note how long each image takes to load.
 
-Full-size images posted on teh web can take a very long time to load based on the number of pixels being transferred to the user's computer. Resizing images is one way to help internet content load faster, especially for users in low-bandwidth or unreliable internet access.
+34. Full-size images posted on teh web can take a very long time to load based on the number of pixels being transferred to the user's computer. Resizing images is one way to help internet content load faster, especially for users in low-bandwidth or unreliable internet access.
 
-Open the `water-lilies.jpg` file in GIMP.
+35. Open the `water-lilies.jpg` file in GIMP.
 
-Move your cursor to the bottom right-hand corner of the image, and look at the pixel coordinates displayed in the bottom left-hand side of the window.
+36. Move your cursor to the bottom right-hand corner of the image, and look at the pixel coordinates displayed in the bottom left-hand side of the window.
 
 <blockquote>Q7: Estimate the number of pixels in each row and column of this image.</blockquote>
 
-Select Scale Image... from the Image menu. Change the width of the image to 600 pixels per row.
+37. Select Scale Image... from the Image menu. Change the width of the image to 600 pixels per row.
 
-Press <Enter> or <Tab> to make sure the height of the image also changes to preserve the image's original "aspect ratio."
+38. Press <Enter> or <Tab> to make sure the height of the image also changes to preserve the image's original "aspect ratio."
  
 <blockquote>"The aspect ratio of an image describes the proportional relationship between its width and its height. It is commonly expressed as two numbers separated by a colon, as in 16:9. For an x:y aspect ratio, no matter how big or small the image is, if the width is divided into x units of equal length and the height is measured using this same length unit, the height will be measured to be y units." <a href="https://en.wikipedia.org/wiki/Aspect_ratio_(image)">(Wikipedia)</a></blockquote>
 
-Click the Scale button to apply the size change. Use Save As to save a copy of the reduced-size image with a new file name.
+39. Click the Scale button to apply the size change. Use Save As to save a copy of the reduced-size image with a new file name.
 
 <blockquote>Using Save instead of Save As will replace the original image with the reduced-size version.</blockquote>
 
@@ -141,19 +141,19 @@ Click the Scale button to apply the size change. Use Save As to save a copy of t
 
 <blockquote>Q9: How many bytes was the water-lilies file before you scaled it down? How many is it now? Does this match your prediction? If not, try to figure out why.</blockquote>
 
-Close any open images.
+40. Close any open images.
 
 # Exploring Image Compression
 
 ## Exploring GIF Compression
 
-GIF uses a “lossless” compression method, in which the image file stored is smaller, but the resulting displayed image is the same. Let's explore how GIF represents images.
+41. GIF uses a “lossless” compression method, in which the image file stored is smaller, but the resulting displayed image is the same. Let's explore how GIF represents images.
 
-Open the `rainbow.gif` file in GIMP.
+42. Open the `rainbow.gif` file in GIMP.
 
-From the Image menu, select Transform and then Rotate 90&deg;. The image should now display vertical (rather than horizontal) stripes.
+43. From the Image menu, select Transform and then Rotate 90&deg;. The image should now display vertical (rather than horizontal) stripes.
 
-Save the rotated image with a new file name using the Export opion.
+44. Save the rotated image with a new file name using the Export opion.
 
 <blockquote>Q10: How many bytes is the original (horizontally striped) <code>rainbow.gif</code> file? How does this compare to the rotated (vertically striped) GIF file?</blockquote>
 
@@ -161,17 +161,17 @@ Save the rotated image with a new file name using the Export opion.
 
 ## Exploring JPEG Compression
 
-JPEG uses a “lossy” compression algorithm, which makes the image files much smaller, but they can be visibly affected because data is lost in the compression process. In this part you’ll explore these effects on image quality and file size.
+45. JPEG uses a “lossy” compression algorithm, which makes the image files much smaller, but they can be visibly affected because data is lost in the compression process. In this part you’ll explore these effects on image quality and file size.
 
-Open the `water-lilies.jpg` file in GIMP.
+46. Open the `water-lilies.jpg` file in GIMP.
 
-Using the Export option, give the file a new name but keep the `jpg` extension. 
+47. Using the Export option, give the file a new name but keep the `jpg` extension. 
 
-A dialog box titled `Save as JPEG` will appear. Check the `Show preview in image window` box.
+48. A dialog box titled `Save as JPEG` will appear. Check the `Show preview in image window` box.
 
-Checking this box will allow you to see the compressed image without having to save and reopen it. Position the dialog box and the image window so you can see the image when changing the Quality slider.
+49. Checking this box will allow you to see the compressed image without having to save and reopen it. Position the dialog box and the image window so you can see the image when changing the Quality slider.
 
-Experiment with the Quality slider.
+50. Experiment with the Quality slider.
 
 <blockquote>Q12: How quickly does the file size decrease? How much does the file size decrease before the difference in image quality becomes visibly noticeable?</blockquote>
   
