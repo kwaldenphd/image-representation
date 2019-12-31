@@ -21,6 +21,18 @@ Revised:
 
 In this lab, we'll compare file formats (GIF and JPEG), re-size image files, and explore the effects of image compression. As we covered in the encoding schema lab, computers store and process a variety of data types using a range of programs. In this lab, we'll be using the GNU Image Manipulation Program (GIMP) to work with image files on the command line.
 
+# Table of Contents
+- [Installing GIMP](#installing-gimp)
+- [Image Files](#image-files)
+- [JPEG Versus GIF Files](#jpeg-versus-gif-files)
+- [Changing Image Modes](#changing-image-modes)
+- [Creating GIF Files from JPEG Files](#creating-gif-files-from-jpeg-files)
+- [Re-sizing Image](#re-sizing-images)
+- [Exploring Image Compression](#exploring-image-compression)
+  * [Exploring GIF Compression](#exploring-gif-compression)
+  * [Exploring JPEG Compression](#exploring-jpeg-compression)
+- [Lab Notebook Questions](#lab-notebook-questions)
+
 # Installing GIMP
 
 1. Open a Terminal window and use `sudo apt-get install gimp` to install GIMP on your Pi.
