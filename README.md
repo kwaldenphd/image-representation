@@ -70,19 +70,19 @@ In this lab, we'll compare file formats (GIF and JPEG), re-size image files, and
 13. The GIMP program will open several windows, including a picture with the image itself. At the top of the frame containing the picture, note that the caption includes the words `Indexed color` to show that a color table is being used.
 
 14. To change the mode of the image to full RGB:
-  a. Click on the Image menu
-  b. Move your curser over the Mode sub-menu
-  c. Click on RGB
+  * Click on the Image menu
+  * Move your curser over the Mode sub-menu
+  * Click on RGB
 
 15. The image frame caption should now read `RGB color` rather than `indexed color`.
 
 16. To save the image as a `jpeg` file:
-  a. Click the File menu and select Export
-  b. In the Export Image dialog box, click on the triangle next to "Select File Type (By Extension)
-  c. Select JPEG image for file type
-  d. Check that the file name has changed to `college-logo.jpg`
-  e. Click Export
-  f. Accept the default quality (90) and click Save
+  * Click the File menu and select Export
+  * In the Export Image dialog box, click on the triangle next to "Select File Type (By Extension)
+  * Select JPEG image for file type
+  * Check that the file name has changed to `college-logo.jpg`
+  * Click Export
+  * Accept the default quality (90) and click Save
     * JPEG allows various quality settings. In general, the better the quality, the larger the file. 
 
 17. Close the image window in GIMP. We do not need to save the file as a GIMP project.
