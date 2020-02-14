@@ -125,7 +125,7 @@ In this lab, we'll compare file formats (GIF and JPEG), re-size image files, and
 
 <blockquote>Q5: What format seems most appropriate for the image?</blockquote>
 
-<blockquote>Q6: Formulate a hypothesis about what times of images are most appropriate for each image format. What kinds of images work better as JPEG files? What kinds of images work better as GIF files?</blockquote>
+<blockquote>Q6: Formulate a hypothesis about what types of images are most appropriate for each image format. What kinds of images work better as JPEG files? What kinds of images work better as GIF files?</blockquote>
 
 32. Close both of the `paradise` images.
 
