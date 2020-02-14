@@ -133,7 +133,7 @@ In this lab, we'll compare file formats (GIF and JPEG), re-size image files, and
 
 33. Using a new browser window, open the [Wikimedia Commons link](https://commons.wikimedia.org/wiki/File:Grinnell_College_Bucksbaum.jpg) to an image of Bucksbaum. Look at some of the different image resolutions. Note how long each image takes to load.
 
-34. Full-size images posted on teh web can take a very long time to load based on the number of pixels being transferred to the user's computer. Resizing images is one way to help internet content load faster, especially for users in low-bandwidth or unreliable internet access.
+34. Full-size images posted on the web can take a very long time to load based on the number of pixels being transferred to the user's computer. Resizing images is one way to help internet content load faster, especially for users in low-bandwidth or unreliable internet access.
 
 35. Open the `water-lilies.jpg` file in GIMP.
 
