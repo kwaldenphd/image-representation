@@ -41,7 +41,7 @@ In this lab, we'll compare file formats (GIF and JPEG), re-size image files, and
 
 #  Image Files
 
-3. Download the four image files in this repo.
+3. Download the four image files in this repo. Images are also avaialble [in a Google Drive folder](https://drive.google.com/drive/folders/1n6t3PMcScjEFYv07MRp7nfjei1eBrK69?usp=sharing) (Notre Dame users only)
 
 4. Using only the terminal, move the files into a newly-created folder for this lab.
 
@@ -131,7 +131,7 @@ In this lab, we'll compare file formats (GIF and JPEG), re-size image files, and
 
 # Re-sizing Images
 
-33. Using a new browser window, open the [Wikimedia Commons link](https://commons.wikimedia.org/wiki/File:Grinnell_College_Bucksbaum.jpg) to an image of Bucksbaum. Look at some of the different image resolutions. Note how long each image takes to load.
+33. Using a new browser window, open the [Wikimedia Commons link](https://en.wikipedia.org/wiki/University_of_Notre_Dame#/media/File:Touchdown_Jesus_at_Notre_Dame.jpg) to an image of Hesburgh Library. Look at some of the different image resolutions. Note how long each image takes to load.
 
 34. Full-size images posted on the web can take a very long time to load based on the number of pixels being transferred to the user's computer. Resizing images is one way to help internet content load faster, especially for users in low-bandwidth or unreliable internet access.
 
@@ -222,3 +222,9 @@ Q12: How quickly does the file size decrease? How much does the file size decrea
 Q13: How low can you set the Quality before the the image is drastically altered (e.g., blocky edges, strange colors and “noise”)? What is the file size? What does the image look like for extremely low Qualities (e.g. 1-6)?
 
 Q14: Is it possible for certain images to be compressed (i.e. a quality less than 100) without visible loss? What can you conclude about the relationship between the compressed file size and visible image quality?
+
+Q15: Going back to our work with navigating the command line, open a Terminal on your laptop or desktop. Describe what you see. What is your user name? What is the root?
+
+Q16: When you use the `ls -l` command, can you decipher the information that is displayed? Watch https://youtu.be/exQNuYxqFpA to help decode the information.
+
+Q17: Take a few moments to reflect on your experience working in the command line. How does your navigation of the computer at the command line compare other ways of navigating a computer’s user interface?
