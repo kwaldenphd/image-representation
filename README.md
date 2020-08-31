@@ -67,7 +67,7 @@ ONLY IF ON A LINUX SYSTEM. Otherwise skip to step 2.
 
 11. Using the terminal, navigate to the newly-created directory with the image files.
 
-12. `gimp college-logo.gif &` will open the `college-logo.gif` file in a window separate from your main terminal window.
+12. `gimp university-logo.gif &` will open the `university-logo.gif` file in a window separate from your main terminal window. If opening this file in GIMP using the command line does not work, launch GIMP and select the `university-logo.gif` file under `File--Open`.
 
 13. The GIMP program will open several windows, including a picture with the image itself. At the top of the frame containing the picture, note that the caption includes the words `Indexed color` to show that a color table is being used.
 
@@ -82,7 +82,7 @@ ONLY IF ON A LINUX SYSTEM. Otherwise skip to step 2.
   * Click the File menu and select Export
   * In the Export Image dialog box, click on the triangle next to "Select File Type (By Extension)
   * Select JPEG image for file type
-  * Check that the file name has changed to `college-logo.jpg`
+  * Check that the file name has changed to `university-logo.jpg`
   * Click Export
   * Accept the default quality (90) and click Save
     * JPEG allows various quality settings. In general, the better the quality, the larger the file. 
@@ -93,11 +93,11 @@ ONLY IF ON A LINUX SYSTEM. Otherwise skip to step 2.
 
 <blockquote>Q2: How many bytes are there in <code>college-logo.gif</code>? How many bytes in <code>college-logo.jpg</code>?</blockquote>
 
-19. Open both of the `college-logo` image files by selecting Open from the File menu.
+19. Open both of the `university-logo` image files by selecting Open from the File menu.
 
-20. Arrange the two image windows so yu can see parts of both images as well as the GIMP toolbar.
+20. Arrange the two image windows so you can see parts of both images as well as the GIMP toolbar.
 
-21. Zoom in on a specific area of both `college-logo` images (at least 2000%). The magnifying glass icon on the GIMP toolbar will allow you to zoom in.
+21. Zoom in on a specific area of both `university-logo` images (at least 2000%). The magnifying glass icon on the GIMP toolbar will allow you to zoom in.
 
 <blockquote>Q3: Describe what you see in each image, paying particular attention to colors. Which image format seems to be the most suitable for the logo image?</blockquote>
 
