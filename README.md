@@ -35,9 +35,11 @@ In this lab, we'll compare file formats (GIF and JPEG), re-size image files, and
 
 # Installing GIMP
 
+ONLY IF ON A LINUX SYSTEM. Otherwise skip to step 2.
+
 1. Open a Terminal window and use `sudo apt-get install gimp` to install GIMP on your Pi.
 
-2. Once the installation is completed, you can launch GIMP's GUI interface under "Graphics" in your Start Menu.
+2. Once the installation is completed, you can search for GIMP to launch the program. 
 
 #  Image Files
 
