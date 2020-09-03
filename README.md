@@ -199,7 +199,7 @@ ONLY IF ON A LINUX SYSTEM. Otherwise skip to step 2.
 
 Q1: How many bytes are in each of the original image files? How can you tell?
 
-Q2: How many bytes are there in <code>college-logo.gif</code>? How many bytes in <code>college-logo.jpg</code>?
+Q2: How many bytes are there in <code>university-logo.gif</code>? How many bytes in <code>university-logo.jpg</code>?
 
 Q3: Describe what you see in each image, paying particular attention to colors. Which image format seems to be the most suitable for the logo image?
 
