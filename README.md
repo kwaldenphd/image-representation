@@ -91,7 +91,7 @@ ONLY IF ON A LINUX SYSTEM. Otherwise skip to step 2.
 
 18. Use `ls -l` to see the newly-created JPEG file.
 
-<blockquote>Q2: How many bytes are there in <code>college-logo.gif</code>? How many bytes in <code>college-logo.jpg</code>?</blockquote>
+<blockquote>Q2: How many bytes are there in <code>university-logo.gif</code>? How many bytes in <code>university-logo.jpg</code>?</blockquote>
 
 19. Open both of the `university-logo` image files by selecting Open from the File menu.
 
